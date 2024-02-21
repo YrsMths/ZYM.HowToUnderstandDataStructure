@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PathfindingSys\PathfindingSys.csproj">
+      <Project>{DA2C0F98-1A05-45FD-A569-2C5A39FA776C}</Project>
+      <Name>PathfindingSys</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

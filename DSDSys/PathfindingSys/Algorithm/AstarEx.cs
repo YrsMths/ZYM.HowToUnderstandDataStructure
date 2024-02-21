@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PathfindingSys
+namespace PathfindingSys.Algorithm
 {
-    public class Class1
+    public class AstarEx
     {
-
+        //扩展A*算法
     }
 }
